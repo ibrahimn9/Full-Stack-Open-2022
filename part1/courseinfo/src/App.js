@@ -1,6 +1,7 @@
 import Header from './Header'
 import Content from './Content'
 import Total from './Total'
+import ContentP from './ContentP'
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
       <Header course={course} />
       <Content part={{part1, part2, part3}} ex={{exercises1, exercises2, exercises3}} />
       <Total ex={{exercises1, exercises2, exercises3}} />
+
+      <ContentP part={{part1, part2, part3}} ex={{exercises1, exercises2, exercises3}} />
     </div>
   )
 }
