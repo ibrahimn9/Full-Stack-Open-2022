@@ -1,0 +1,7 @@
+export { default as About } from './About'
+export { default as AnecDoteList } from './AnecDoteList'
+export { default as AnecDote } from './AnecDote'
+export { default as CreateNew } from './CreateNew'
+export { default as Footer } from './Footer'
+export { default as Menu } from './Menu'
+export { default as Notification } from './Notification'
